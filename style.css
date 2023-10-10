@@ -51,6 +51,8 @@ article.media-post > footer ul {
   top: 0;
   left: 0;
   right: 0;
+
+  transition: opacity 0.5s
 }
 
 #modal p {
@@ -62,5 +64,6 @@ article.media-post > footer ul {
 }
 
 .hidden {
-  visibility: hidden;
+  visibility: none;
+  opacity:0%;
 }
